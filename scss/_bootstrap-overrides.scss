@@ -14,3 +14,13 @@ a {
     color: darken($primary, 15%);
   }
 }
+
+.border-dark {
+  border-color: $gray-400 !important;
+}
+
+
+.navbar-dark .navbar-toggler {
+  color: $primary;
+  border-color: $gray-400;
+}

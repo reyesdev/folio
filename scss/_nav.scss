@@ -1,9 +1,11 @@
 #sideNav {
-  .navbar-brand {}
   .navbar-nav .nav-item .nav-link {
     font-weight: 600;
-    // text-transform: uppercase;
   }
+  @media (max-width:$bp-desktop) {
+    background-color: #fff;  
+  }
+  
 }
 
 @media (min-width: 992px) {
